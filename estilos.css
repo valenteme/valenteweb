@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*background: ;*/
+
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	background: #00B7BD;
+}
+
+.contenedor{
+	width: 1000px;
+	margin: 20px;
+}
+
+header{	
+	background: #00B7BD;
+}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+header nav ul li{
+	float: left;
+	list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none; /*elimina decoraciones*/
+	display: inline-block; /*muestra en forma de bloque*/
+	padding: 15px 20px;
+	color: white;
+}
+
+header nav ul li a:hover{
+	background: #1CA08E;
+	color:black;
+}
+
+.main{
+	width: 680px;
+	background:  white ;
+	float: left; /*flotar a la izquierda*/
+}
+.main .imagen{
+	width: 100%;
+}
+
+.main .imagen img{
+	width: 100%;
+}
+
+.main .post{
+	padding: 40px;
+}
+.main .post h2{
+	color: #0A4704 ;
+	margin-bottom: 20px;
+}
+.main .post p{
+	color: black;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 280px;
+	padding: 20px;
+	background: black;
+	color: pink;
+	overflow: hidden;
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget h2{
+	border-bottom: 1 px solid hotpink;
+	color: #D7FF81;
+	margin-bottom: 10px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid white;
+	padding: 10px 0px;
+}
+
+aside .widget ul li a{
+	text-decoration: none;
+	color: #FFE196;
+}
+
+aside .widget ul li a:hover{
+	background: grey;
+	color:whites ;
+}
+
+aside .widget p{
+	line-height: 27px;
+	text-align: justify;
+}
+
+footer {
+	width: 600px;
+	padding: 40px;
+	background: #3BB036;
+	overflow:hidden;
+	text-align: center;
+	color: black;
+}
+
+H1{
+	text-align: center;
+}
